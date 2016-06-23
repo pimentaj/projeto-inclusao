@@ -2,35 +2,60 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="/foundation/css/foundation.min.css" />
+	<link rel="stylesheet" type="text/css" href="/foundation/css/foundation.min.css" />			
 	<link rel="stylesheet" href="/style.css" />
-	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
 	<title>Guia Inclusivo</title>
 </head>
 <body>
 	<section class="row">
-
 		<div class="large-4 columns">
-		  <h1>Guia Inclusivo</h1>
+		  <h1>Guia Inclusivo</h1>   
 		</div>			
 
 		<div class="large-8 columns">
 			<ul class="menu-centered">
-			  <li><a href="#">Hotéis</a></li>
-			  <li><a href="#">Museus</a></li>
-			  <li><a href="#">Parques</a></li>
-			  <li><a href="#">Pizzarias</a></li>
-			  <li><a href="#">Restaurantes</a></li>
+			  <li><a class="menu" href="#">Hotéis</a></li>
+			  <li><a class="menu" href="#">Museus</a></li>
+			  <li><a class="menu" href="#">Parques</a></li>
+			  <li><a class="menu" href="#">Pizzarias</a></li>
+			  <li><a class="menu" href="#">Restaurantes</a></li>
 			</ul>
 		</div>
 	
 	</section>
 
-	<section class="foto">
-		<h3>Sobre</h3>
-		<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates sit earum maxime, facere rem suscipit vitae sint facilis distinctio, eligendi atque assumenda vel odio dolor cumque eveniet laudantium eaque officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam mollitia ut itaque consequuntur esse, laudantium quidem qui, dicta odio fugit, corporis, incidunt quos! Molestias libero repellendus sequi, adipisci corrupti corporis!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis aliquid, temporibus corporis. Dolore labore nulla fugiat magni aliquam est voluptatibus unde sequi suscipit velit neque pariatur distinctio veritatis, non blanditiis?. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis similique beatae ratione, hic magnam numquam quidem exercitationem. Saepe delectus sunt voluptatibus rem ducimus quo nesciunt, quas, placeat nemo obcaecati labore.</p>
-
+	<section class="inicio">
+		<img src="foto.jpg" alt="Foto do Filme Intocáveis" class="photo">
 	</section>
+
+	<section class="row">
+		<div class="large-12 columns">
+			<h3>Iniciativa</h3>
+			<p class="text">É o fim de um curso {Reprograma} e inicio de uma jornada, que trouxe mudanças e me fez repensar em valores e questões que nos rodeiam todos os dias. Esse projeto tem o intuito de ajudar pessoas com algum tipo de deficiência a se locomover com mais facilidade, pensando.</p>
+		</div>
+	</section>
+
+	<section id="docs" class="row" >
+		<div class="large-12 columns">
+			
+		</div>	
+		
+	</section>
+
+	<form class="contato row">
+		<div class="info large-4 columns">
+			<label for="email">E-mail</label>
+			<input type="email" name="email">
+			<label for="msg">Mensagem:</label>
+        	<textarea id="msg"></textarea>
+		</div>
+		<button class="button" type="button">
+			<span class="show-for-sr">Close</span>	
+	  		<span aria-hidden="true"><i class="fi-x"></i>Enviar</span>
+		</button>
+	</form>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
 <script type="text/javascript" src="/doc.js"></script>
@@ -42,8 +67,9 @@
 	    var s = document.getElementsByTagName('script')[0];
 	    s.parentNode.appendChild(ht);
 	})();
-	  //  HandTalk_EXCECAO -> ID ou CLASSE do elemento que desejar exceção, separados por virgula
-	  //  Exemplo:  '#menu,.listas,.formulario,#carrousel'
 </script>
+	<footer>
+			
+	</footer>								
 </body>
 </html>
