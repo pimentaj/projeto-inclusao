@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="/foundation/css/foundation.min.css" />			
+	<link rel="stylesheet" href="/stylesheets/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css?family=Coustard" rel="stylesheet">
+	<title>Guia Inclusivo</title>
+</head>
+<body> 
+	<section class="row">
+		<div class="large-4 columns">
+		  <h1>Guia Inclusivo</h1>   
+		</div>			
+
+		<div class="large-8 columns">
+			<ul class="menu-centered">
+			  <li><a class="menu" href="/hoteis">Hotéis</a></li>
+			  <li><a class="menu" href="/museus">Museus</a></li>
+			  <li><a class="menu" href="/parques">Parques</a></li>
+			  <li><a class="menu" href="/pizzarias">Pizzarias</a></li>
+			  <li><a class="menu" href="/restaurantes">Restaurantes</a></li>
+			</ul>
+		</div>
+	</section>
+	<%- body %>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+<script type="text/javascript" src="/doc.js"></script>
+<script type="text/javascript">
+	var _hta = {'_setToken': '9579b3407fbad6d871df5f56e0aacc6483b0c40e','_htException': 'HandTalk_EXCECAO'};
+	(function() {
+	   var ht = document.createElement('script'); ht.type = 'text/javascript'; ht.async = true;
+	    ht.src = '//api.handtalk.me/handtalk_init.js';
+	    var s = document.getElementsByTagName('script')[0];
+	    s.parentNode.appendChild(ht);
+	})();
+</script>
+	<footer>
+		<a target="_blank" href="https://web.moovitapp.com/tripplan?metroId=242&lang=pt">
+		<img src="/images/moovit.png" class="infocaminho">
+		</a>
+			
+	</footer>								
+</body>
+</html>

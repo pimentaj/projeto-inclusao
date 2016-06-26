@@ -77,3 +77,7 @@ label{
 textarea:focus{
 	background: #DCDCDC	;
 }
+
+.infocaminho{
+	width: 6%;
+}
