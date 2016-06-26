@@ -1,0 +1,13 @@
+
+<% for (var x= 0; x< parques.length; x++) { %>
+	<div class="infos row">
+		<h3 class="title"><%= parques[x].name %></h3>
+		<img src="<%= parques[x].img %>" class="imagem small-8 columns ">
+		<p class="text"><%= parques[x].location %></p>
+		<p><%= parques[x].description %></p>
+			<a target="_blank" href="https://web.moovitapp.com/tripplan?metroId=242&lang=pt" >
+				<img src="/images/moovit.png" class="infocaminho">
+			</a>	
+	</div>
+
+ <% } %>

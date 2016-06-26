@@ -1,3 +1,7 @@
+var hoteis = require("../hotel.json");
+var museus = require("../museu.json");
+var parques = require("../parques.json")
+var restaurantes = require("../restaurantes.json");
 var express = require('express');
 var router = express.Router();
 
@@ -7,23 +11,20 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/hoteis', function(req, res) {
-	res.render('hoteis', {title: 'Express'});
+	res.render('hoteis', { hoteis: hoteis });
 });
 
 router.get('/museus', function(req, res){
-	res.send('museus');
+	res.render('museus', { museus: museus });
 })
 
 router.get('/parques', function(req, res){
-	res.send('parques');
+	res.render('parques', { parques: parques });
 })
 
-router.get('/pizzarias', function(req, res){
-	res.send('pizzarias');
-})
 
 router.get('/restaurantes', function(req, res){
-	res.send('restaurantes');
+	res.render('restaurantes', { restaurantes: restaurantes});
 })
 
 

@@ -10,7 +10,7 @@ li{
 
 }
 ul{
-	margin: 22px;
+	margin: -90px;
 	padding-top: 40px;
 }
 
@@ -46,7 +46,7 @@ h1{
 .photo{
 	position: relative;
 	z-index: -1;
-	margin-top: -150px;
+	margin-top: -85px;
 }
 .text{
 	color: black;
@@ -80,4 +80,33 @@ textarea:focus{
 
 .infocaminho{
 	width: 6%;
+}
+
+.title{
+	text-align: left;
+}
+
+.text{
+	padding: 10px;
+}
+
+.imagem{
+	height: 300px;
+	width: 26%;
+	margin: 15px;
+}
+.museu{
+	padding: 10px;
+}
+
+footer{
+	background: #1874CD;
+	width: 100%;
+	height: 7%;
+}
+.button a{
+	background: #1874CD;
+}
+form{
+	padding-top: 42px;
 }

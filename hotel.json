@@ -3,61 +3,73 @@
 	{
 		"location": "Av. Brg. Faria Lima, 3989 - Itaim Bibi, São Paulo - SP, 04538-133",
 		"name": "Hotel Blue Tree Towers",
-		"description": "O hóspede com deficiência encontra boa infraestrutura de lazer e negócios. Há dois quartos adaptados."
+		"description": "O hóspede com deficiência encontra boa infraestrutura de lazer e negócios. Há dois quartos adaptados.",
+		"img": "/imagens/bluetree.jpg"
 	},
 	{
 		"location": "R. Araújo, 141 - República, São Paulo - SP, 01220-020",
 		"name": "Comfort Hotel Downtown",
-		"description": " Há rampas e elevadores, dois quartos adaptados. Opção econômica."
+		"description": " Há rampas e elevadores, dois quartos adaptados. Opção econômica.",
+		"img": "/imagens/confort.jpeg"
 	},
 	{
 		"location": " Rua Vergueiro, 1571 - Paraíso, São Paulo - SP, 04101-000",
 		"name": "Hotel Formule 1",
-		"description": " Proximidade do metrô Paraíso, há dois quartos adaptados. Opção econômica."
+		"description": " Proximidade do metrô Paraíso, há dois quartos adaptados. Opção econômica.",
+		"img": "/imagens/hotelformule1.jpg"
 	},
 	{
 		"location": "R. Dr. Diogo de Faria, 1201 - Vila Mariana, São Paulo - SP, 04037-004",
 		"name": "Green Place Flat",
-		"description": "Seis quartos adaptados com adaptações básicas para deficientes."
+		"description": "Seis quartos adaptados com adaptações básicas para deficientes.",
+		"img": "/imagens/greenplaceflat.jpg"
 	},
 	{
 		"location": "R. Vitório Fasano, 88 - Jardins, São Paulo - SP, 01414-020",
 		"nome": "Hotel Fasano",
-		"description": "Há dois quartos adaptados."
+		"description": "Há dois quartos adaptados.",
+		"img": "/imagens/hotelfasano.jpg"
 	},
 	{
 		"location": "R. Martins Fontes, 71 - Centro, São Paulo - SP, 01050-000",
 		"name": "Novotel Jaraguá São Paulo Conventions",
-		"description": "Há 14 apartamentos adaptados. Ótima acessibilidade, recepção com mesa especial de atendimento, manuais em Braile e telefones para surdos.Apartamento adaptado para uma pessoa surda, com sinais luminosos, telefones com teclas especiais. Existe outra unidade para deficientes visuais, o piso é frio para receber adequadamente os cães-guias e o cardápio está em Braile. No restaurante o bufê é rebaixado e há cardápios em braile."
+		"description": "Há 14 apartamentos adaptados. Ótima acessibilidade, recepção com mesa especial de atendimento, manuais em Braile e telefones para surdos.Apartamento adaptado para uma pessoa surda, com sinais luminosos, telefones com teclas especiais. Existe outra unidade para deficientes visuais, o piso é frio para receber adequadamente os cães-guias e o cardápio está em Braile. No restaurante o bufê é rebaixado e há cardápios em braile.",
+		"img": "/imagens/novoteljaragua.jpg"
 	},
 	{
 		"location": "R. Sena Madureira, 1355 - Vila Clementino, São Paulo - SP, 04021-051",
-		"nome": "Novotel Ibirapuera",
-		"description": "Adaptação básica para os deficientes físicose bom acesso ás áreas de lazer do prédio. Há 1 quarto adaptado."
+		"name": "Novotel Ibirapuera",
+		"description": "Adaptação básica para os deficientes físicose bom acesso ás áreas de lazer do prédio. Há 1 quarto adaptado.",
+		"img": "/imagens/novotelibirapuera.jpg"
 	},
 	{
 		"location": "Alameda Santos, 2233, São Paulo - SP, 01419-002",
-		"nome": "Hotel renaissance",
-		"description": "Há 9 apartamentos adaptados. O local possui rampas e elevadores. Na recepção há um fúncionário habilitado em libras."
+		"name": "Hotel renaissance",
+		"description": "Há 9 apartamentos adaptados. O local possui rampas e elevadores. Na recepção há um fúncionário habilitado em libras.",
+		"img": "/imagens/hotelrenaissance.jpg"
 	},
 	{
 		"location": "Av. Brigadeiro Luís Antônio, 4700 - Jardim Paulista, São Paulo - SP, 01402-002",
-		"nome": "Hotel Unique",
-		"description": "Há 2 apartamentos adaptados e fácil acesso a todas ás áreas."
+		"name": "Hotel Unique",
+		"description": "Há 2 apartamentos adaptados e fácil acesso a todas ás áreas.",
+		"img": "/imagens/hotelunique.jpg"
 	},
 	{
 		"location": "R. Baronesa de Bela Vista, 801 - Vila Congonhas, São Paulo - SP, 04612-002",
-		"nome": "Ibis São Paulo Congonhas",
-		"description": "Há 4 apartamentos adaptados."
+		"name": "Ibis São Paulo Congonhas",
+		"description": "Há 4 apartamentos adaptados.",
+		"img": "/imagens/ibiscongonhas.jpg"
 	},
 	{
 		"location": "Avenida da Nações Unidas, 12559 - Brooklin Novo, São Paulo - SP, 04578-903",
-		"nome": "Sheraton São Paulo WTC Hotel",
-		"description": "Há 2 apartamentos adaptados. Um deles é totalmente adaptado para cegos com a sinalização interna em Braile."
+		"name": "Sheraton São Paulo WTC Hotel",
+		"description": "Há 2 apartamentos adaptados. Um deles é totalmente adaptado para cegos com a sinalização interna em Braile.",
+		"img": "/imagens/sheraton.jpg"
 	},
 	{
 		"location": "Av. Ibirapuera, 2534 - Moema, São Paulo - SP, 04028-002",
-		"nome": "Sonesta Ibirapuera",
-		"description": "Possui 1 quarto adaptado e boa acessibilidade nas áreas comuns e de lazer."
+		"name": "Sonesta Ibirapuera",
+		"description": "Possui 1 quarto adaptado e boa acessibilidade nas áreas comuns e de lazer.",
+		"img": "/imagens/hotelsonesta.jpg"
 	}
 ]

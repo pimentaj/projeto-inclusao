@@ -1,0 +1,14 @@
+
+<% for (var x= 0; x< museus.length; x++) { %>
+	<div class="infos row">
+		<h3 class="title"><%= museus[x].name %></h3>
+		<img src="<%= museus[x].img %>" class="imagem small-8 columns ">
+		<p class="text"><%= museus[x].location %></p>
+		<p><%= museus[x].description %></p>
+			<a target="_blank" href="https://web.moovitapp.com/tripplan?metroId=242&lang=pt" >
+				<img src="/images/moovit.png" class="infocaminho">
+			</a>		
+	</div>
+
+ <% } %>
+
