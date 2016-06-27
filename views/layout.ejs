@@ -24,21 +24,24 @@
 		</div>
 	</section>
 	<%- body %>
-	
+
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
 <script type="text/javascript" src="/doc.js"></script>
 <script type="text/javascript">
-	var _hta = {'_setToken': '9579b3407fbad6d871df5f56e0aacc6483b0c40e','_htException': 'HandTalk_EXCECAO'};
-	(function() {
-	   var ht = document.createElement('script'); ht.type = 'text/javascript'; ht.async = true;
-	    ht.src = '//api.handtalk.me/handtalk_init.js';
-	    var s = document.getElementsByTagName('script')[0];
-	    s.parentNode.appendChild(ht);
-	})();
+<script type="text/javascript">
+  var _hta = {'_setToken': '9579b3407fbad6d871df5f56e0aacc6483b0c40e','_htException': 'HandTalk_EXCECAO'};
+  (function() {
+    var ht = document.createElement('script'); ht.type = 'text/javascript'; ht.async = true;
+    ht.src = '//api.handtalk.me/handtalk_init.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.appendChild(ht);
+  })();
+  //  HandTalk_EXCECAO -> ID ou CLASSE do elemento que desejar exceção, separados por virgula
+  //  Exemplo:  '#menu,.listas,.formulario,#carrousel'
 </script>
-	<footer>
-		
-	</footer>								
+<footer
+
+</footer								
 </body>
 </html>
