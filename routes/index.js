@@ -7,25 +7,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { hoteis: hoteis, museus: museus, parques: parques, restaurantes: restaurantes });
 });
-
-router.get('/hoteis', function(req, res) {
-	res.render('hoteis', { hoteis: hoteis });
-});
-
-router.get('/museus', function(req, res){
-	res.render('museus', { museus: museus });
-})
-
-router.get('/parques', function(req, res){
-	res.render('parques', { parques: parques });
-})
-
-
-router.get('/restaurantes', function(req, res){
-	res.render('restaurantes', { restaurantes: restaurantes});
-})
 
 
 module.exports = router;

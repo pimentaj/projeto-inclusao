@@ -4,6 +4,7 @@
 		<img src="/images/foto.jpg" alt="Foto do Filme Intocáveis" class="photo">
 	</section>
 
+
 	<section class="row">
 		<div class="large-12 columns">
 			<h3>Iniciativa</h3>
@@ -12,10 +13,67 @@
 	</section>
 		<hr></hr>
 		
-	<section id="docs" class="row" >
-		<div class="large-12 columns">
+	<section class="row" >
+		<div class="large-12 columns" id="hoteis">
+			<h3>Hotéis</h3>
+			<% for (var x= 0; x< hoteis.length; x++) { %>
+			<h3 class="title"><%= hoteis[x].name %></h3>
+			<img src="<%= hoteis[x].img %>" class="imagem small-8 columns ">
+			<p><%= hoteis[x].description %></p>
+			<p class="text"><%= hoteis[x].location %></p>
+			<a target="_blank" href="https://web.moovitapp.com/tripplan?metroId=242&lang=pt" >
+				<img src="/images/moovit.png" class="infocaminho">
+			</a>	
+			<hr></hr>
+			 <% } %>
 			
 		</div>	
+
+		<div class="large-12 columns" id="museus">
+			<h3>Museus</h3>
+			<% for (var x= 0; x< museus.length; x++) { %>
+				<h3 class="title"><%= museus[x].name %></h3>
+				<img src="<%= museus[x].img %>" class="imagem small-8 columns ">
+				<p><%= museus[x].description %></p>
+				<p class="text"><%= museus[x].location %></p>
+				<a target="_blank" href="https://web.moovitapp.com/tripplan?metroId=242&lang=pt" >
+					<img src="/images/moovit.png" class="infocaminho">
+				</a>		
+				<hr></hr>
+			<% } %>
+			
+		</div>
+
+		<div class="large-12 columns" id="parques">
+			<h3>Parques</h3> 
+			<% for (var x= 0; x< parques.length; x++) { %>
+			<h3 class="title"><%= parques[x].name %></h3>
+			<img src="<%= parques[x].img %>" class="imagem small-8 columns ">
+			<p><%= parques[x].description %></p>
+			<p class="text"><%= parques[x].location %></p>
+			<a target="_blank" href="https://web.moovitapp.com/tripplan?metroId=242&lang=pt" >
+				<img src="/images/moovit.png" class="infocaminho">
+			</a>	
+			<hr></hr>
+			<% } %>
+		
+		</div>
+
+		<div class="large-12 columns" id="restaurantes">
+			<h3>Restaurantes</h3>
+			<% for (var x= 0; x< restaurantes.length; x++) { %>
+			<h3 class="title"><%= restaurantes[x].name %></h3>
+			<img src="<%= restaurantes[x].img %>" class="imagem small-8 columns ">
+			<p><%= restaurantes[x].description %></p>
+			<p class="text"><%= restaurantes[x].location %></p>
+			<a target="_blank" href="https://web.moovitapp.com/tripplan?metroId=242&lang=pt" >
+				<img src="/images/moovit.png" class="infocaminho">
+			</a>	
+	
+			<hr></hr>
+			<% } %>
+			
+		</div>
 		
 	</section>
 
