@@ -1,0 +1,16 @@
+
+<% for (var x= 0; x< hoteis.length; x++) { %>
+	<div class="infos row">
+		<h3 class="title"><%= hoteis[x].name %></h3>
+		<img src="<%= hoteis[x].img %>" class="imagem small-8 columns ">
+		<p><%= hoteis[x].description %></p>
+		<p class="text"><%= hoteis[x].location %></p>
+			<a target="_blank" href="https://web.moovitapp.com/tripplan?metroId=242&lang=pt" >
+				<img src="/images/moovit.png" class="infocaminho">
+			</a>	
+	</div>
+	<hr></hr>
+
+
+ <% } %>
+
