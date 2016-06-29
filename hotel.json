@@ -4,6 +4,7 @@
 		"location": "Av. Brg. Faria Lima, 3989 - Itaim Bibi, São Paulo - SP, 04538-133",
 		"name": "Hotel Blue Tree Towers",
 		"description": "O hóspede com deficiência encontra boa infraestrutura de lazer e negócios. Há dois quartos adaptados.",
+		"link": "http://www.bluetree.com.br/",
 		"img": "/imagens/bluetree.jpg"
 	},
 	{
@@ -39,7 +40,7 @@
 	{
 		"location": "R. Sena Madureira, 1355 - Vila Clementino, São Paulo - SP, 04021-051",
 		"name": "Novotel Ibirapuera",
-		"description": "Adaptação básica para os deficientes físicose bom acesso ás áreas de lazer do prédio. Há 1 quarto adaptado.",
+		"description": "Adaptação básica para os deficientes físicos bom acesso ás áreas de lazer do prédio. Há 1 quarto adaptado.",
 		"img": "/imagens/novotelibirapuera.jpg"
 	},
 	{

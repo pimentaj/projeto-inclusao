@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="/foundation/css/foundation.min.css" />			
 	<link rel="stylesheet" href="/stylesheets/style.css" />
+	<script src="https://code.jquery.com/jquery-3.0.0.js" integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo=" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">	
 	<link href="https://fonts.googleapis.com/css?family=Coustard" rel="stylesheet">
 	<title>Guia Inclusivo</title>
@@ -16,7 +17,7 @@
 
 		<div class="large-8 columns">
 			<ul class="menu-centered">
-			  <li><a class="menu" href="/hoteis">Hotéis</a></li>
+			  <li><a class="menu" href="/hoteis	">Hotéis</a></li>
 			  <li><a class="menu" href="/museus">Museus</a></li>
 			  <li><a class="menu" href="/parques">Parques</a></li>
 			  <li><a class="menu" href="/restaurantes">Restaurantes</a></li>
@@ -39,6 +40,60 @@
   //  HandTalk_EXCECAO -> ID ou CLASSE do elemento que desejar exceção, separados por virgula
   //  Exemplo:  '#menu,.listas,.formulario,#carrousel'
 </script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.4.0/annyang.min.js"></script>
+<script>
+if (annyang) {
+  // Let's define our first command. First the text we expect, and then the function it should call
+  var commands = {
+    'show tps report': function() {
+      $('#tpsreport').animate({bottom: '-100px'});
+    }
+  };
+
+  // Add our commands to annyang
+  annyang.addCommands(commands);
+
+  // Start listening. You can call this here, or attach this call to an event, button, etc.
+  annyang.start();
+}
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.4.0/annyang.min.js"></script>
+<script>
+if (annyang) {
+  // Let's define a command. 
+  var commands = {
+    'hello': function() { alert('Hello world!'); }
+  };
+ 
+  // Add our commands to annyang 
+  annyang.addCommands(commands);
+ 
+  // Start listening. 
+  annyang.start();
+}
+</script> 
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.4.0/annyang.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/speechkitt.min.js"></script>
+<script>
+if (annyang) {
+  // Add our commands to annyang 
+  annyang.addCommands({
+    'hello': function() { alert('Hello world!'); }
+  });
+ 
+  // Tell KITT to use annyang 
+  SpeechKITT.annyang();
+ 
+  // Define a stylesheet for KITT to use 
+  SpeechKITT.setStylesheet('//cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/themes/flat.css');
+ 
+  // Render KITT's interface 
+  SpeechKITT.vroom();
+}
+</script> 
 <footer
 
 </footer								

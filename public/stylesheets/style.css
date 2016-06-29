@@ -1,3 +1,4 @@
+
 body{
 	margin: 0;
 	padding: 0;
@@ -14,6 +15,7 @@ ul{
 	padding-top: 40px;
 }
 
+
 .menu	{
 	margin: 10px;
 	font-size: 16px;
@@ -22,8 +24,8 @@ ul{
 	padding: 10px;
 	border-radius: 40px;
 
-
 }
+
 .menu:hover{
 	background: #E0FFFF;
 }
@@ -36,6 +38,19 @@ ul{
   	@include disable-mouse-outline;
  
 }
+.inicio{
+	margin-top: -671px;
+}
+.home{
+	color: #1874CD;
+	margin: 10px;
+	padding: 14px;
+	font-family: 'ABeeZee', sans-serif;
+	text-align: left;
+	font-size: 40px;
+	float: left;
+
+}
 h1{
 	color: #1874CD;
 	margin: 3px;
@@ -47,18 +62,28 @@ h1{
 	position: relative;
 	z-index: -1;
 	margin-top: -85px;
+	opacity: 0.6;
 }
-.text{
-	color: black;
-	margin: 10px;
-	text-align: left;
-	padding: 14px;
-	font-size: 16px;
+.logo{
+	color: #800080;
+	font-weight: bold;
+	text-shadow: 0 0;
+}
+.texto{
+	font-size: 4rem;
+	color: #1874CD;
+	float: left;
+    margin-top: -38px;
+}
+
+.home{
+	font-size: 2rem;
+	    color: black;
+    text-shadow: 0px 1px #cacaca;
 }
 h3{
 	color: #1874CD;
 	margin: 10px;
-	padding: 14px;
 	font-family: 'ABeeZee', sans-serif;
 	text-align: center;
 }
@@ -66,6 +91,7 @@ h4{
 	font-family: 'ABeeZee', sans-serif;
 	text-align: center;
 	color: #1874CD;
+	margin: 40px;
 }
 
 label{
@@ -82,12 +108,14 @@ textarea:focus{
 	width: 6%;
 }
 
-.title{
-	text-align: left;
-}
 
 .text{
 	padding: 10px;
+	font-size: 15px;
+}
+p{
+	font-size: 24px;
+	padding: 21px;
 }
 
 .imagem{
@@ -110,10 +138,7 @@ footer{
 form{
 	padding-top: 42px;
 }
-p{
-	font-size: 22px;
-	padding: 14px;
-}
+
 hr{
 	margin-top: 20px;
 	margin-bottom: 20px;
