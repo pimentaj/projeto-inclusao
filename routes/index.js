@@ -7,23 +7,23 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', active: ' ' });
+  res.render('index', { title: 'Express', paginatual: 'home' });
 });
 
 router.get('/hoteis', function(req, res) {
-	res.render('lugares', { lugares: hoteis, active: 'hoteis' });
+	res.render('lugares', { lugares: hoteis, paginatual: 'hoteis' });
 });
 
 router.get('/museus', function(req, res){
-	res.render('lugares', { lugares: museus, active: 'museus' });
+	res.render('lugares', { lugares: museus, paginatual: 'museus' });
 })
 
 router.get('/parques', function(req, res){
-	res.render('lugares', { lugares: parques, active: 'parques' });
+	res.render('lugares', { lugares: parques, paginatual: 'parques' });
 })
 
 router.get('/restaurantes', function(req, res){
-	res.render('lugares', { lugares: restaurantes, active: 'restaurantes' });
+	res.render('lugares', { lugares: restaurantes, paginatual: 'restaurantes' });
 });
 
 module.exports = router;
