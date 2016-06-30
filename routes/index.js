@@ -11,19 +11,19 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/hoteis', function(req, res) {
-	res.render('hoteis', { hoteis: hoteis });
+	res.render('lugares', { lugares: hoteis });
 });
 
 router.get('/museus', function(req, res){
-	res.render('museus', { museus: museus });
+	res.render('lugares', { lugares: museus });
 })
 
 router.get('/parques', function(req, res){
-	res.render('parques', { parques: parques });
+	res.render('lugares', { lugares: parques });
 })
 
 router.get('/restaurantes', function(req, res){
-	res.render('restaurantes', { restaurantes: restaurantes});
+	res.render('lugares', { lugares: restaurantes});
 });
 
 module.exports = router;
