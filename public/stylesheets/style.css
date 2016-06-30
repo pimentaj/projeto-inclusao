@@ -16,7 +16,7 @@ ul{
 }
 
 
-.menu	{
+.menu{
 	margin: 10px;
 	font-size: 16px;
 	color: #1874CD;
@@ -27,7 +27,11 @@ ul{
 }
 
 .menu:hover{
-	background: #E0FFFF;
+	background: rgba(52, 152, 219, 0.63);
+}
+
+.menu.selecionado{
+	background: rgba(52, 152, 219, 0.63);
 }
 
 .photo{

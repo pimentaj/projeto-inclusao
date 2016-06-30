@@ -15,12 +15,12 @@
 		  	<a href="/"><h1>Guia Inclusivo</h1></a>
 		</div>			
 
-		<div class="large-8 columns">
+		<div class="large-8 columns"c>
 			<ul class="menu-centered">
-			  <li><a class="menu" href="/hoteis	">Hotéis</a></li>
-			  <li><a class="menu" href="/museus">Museus</a></li>
-			  <li><a class="menu" href="/parques">Parques</a></li>
-			  <li><a class="menu" href="/restaurantes">Restaurantes</a></li>
+			  <li><a class="menu <%= active == 'hoteis' ? 'selecionado' : '' %>" href="/hoteis">Hotéis</a></li>
+			  <li><a class="menu <%= active == 'museus' ? 'selecionado' : '' %>" href="/museus">Museus</a></li>
+			  <li><a class="menu <%= active == 'parques' ? 'selecionado' : '' %>" href="/parques">Parques</a></li>
+			  <li><a class="menu <%= active == 'restaurantes' ? 'selecionado' : '' %>" href="/restaurantes">Restaurantes</a></li>
 			</ul>
 		</div>
 	</section>

@@ -4,24 +4,28 @@
 		"location": "Avenida Pedro Álvares Cabral, Portão 10 - Parque Ibirapuera, São Paulo - SP, 04094-050",
 		"name": "Museu Afro Brasil",
 		"description": "Há boas condições de acessibilidade para cadeirantes.",
-		"img": "/imagens/museuafro.jpg"
+		"img": "/imagens/museuafro.jpg",
+		"link": "www.museuafrobrasil.org.br"
 	},
 	{
 		"location": "Av. Pedro Álvares Cabral, s/n°, São Paulo - SP, 04094-000",
 		"name": "Museu de Arte de Moderna",
 		"description": "Ótimo acesso para pessoas com deficiência, com piso podotátil no entorno do prédio. Possui banheiros adaptados.",
-		"img": "/imagens/museuartemoderna.jpg"
+		"img": "/imagens/museuartemoderna.jpg",
+		"link": "mam.org.br/"
 	},
 	{
 		"location": " Estação da Luz - Praça da Luz, s/n - Centro, São Paulo - SP, 01120-010",
 		"name": "Museu Da Língua Portuguesa",
 		"description": "Acessibilidade em todos os andares, piso podotátil e monitores. Há banheiros adaptados.",
-		"img": "/imagens/museulingua.jpg"
+		"img": "/imagens/museulingua.jpg",
+		"link": "www.museudalinguaportuguesa.org.br"
 	},
 	{
 		"location": "Estádio do Pacaembu - Praça Charles Miler, S/n - Pacaembu, São Paulo - SP, 01234-900",
 		"name": "Museu do Futebol",
 		"description": "Bilheteria com piso podotátil, instrutores habilitados em libras. Elevadores em todos os andares, a altura das arações interativas está acessível a cadeirantes. Também há sinalizações em Braile, áudio-guias e jpgps táteis.",
-		"img": "/imagens/museufutebol.jpeg"
+		"img": "/imagens/museufutebol.jpeg",
+		"link": "www.museudofutebol.org.br"
 	}
 ]

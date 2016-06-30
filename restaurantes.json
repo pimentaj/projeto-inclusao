@@ -3,67 +3,78 @@
 		"location": " Rua Haddock Lobo, 1738 - Jardim Paulista, São Paulo - SP, 01415-000",
 		"name": "Restaurante A Figueira Rubaiyat",
 		"description": "Há área de circulação para cadeira de rodas e banheiros adaptados.",
-		"img": "/imagens/figueirarestaurante.jpg"
+		"img": "/imagens/figueirarestaurante.jpg",
+		"link": "rubaiyat.com.br/figueira"
 	},
 	{
 		"location": "Alameda Santos, 86 - Paraíso, São Paulo - SP, 04003-040",
 		"name": "Baby Beef Rubaiyat",
 		"description": "Há área de circulação para cadeira de rodas e banheiros adaptados.",
-		"img": "/imagens/babybeefrubayat.jpg"
+		"img": "/imagens/babybeefrubayat.jpg",
+		"link": "rubaiyat.com.br/figueira"
 	},
 	{
 		"location": "Av. São João, 677 - Centro, São Paulo - SP, 01036-000",
 		"name": "Bar Brahma",
 		"description": "Ambiente amplo e confortável para quem usa cadeira de rodas. Banheiro adaptado.",
-		"img": "/imagens/barbrahma.jpg"
+		"img": "/imagens/barbrahma.jpg",
+		"link": "www.barbrahmacentro.com/"
 	},
 	{
 		"location": "Alameda Santos, 45 - Cerqueira César, São Paulo - SP, 01419-000",
 		"name": "Restaurante Dinho´s Place",
 		"description": " Boa acessibilidade nos banheiros e nos salões de serviço.",
-		"img": "/imagens/dinhos.jpg"
+		"img": "/imagens/dinhos.jpg",
+		"link": "www.dinhos.com.br"
 	},
 	{
 		"location": "R. Alves Guimarães, 230 - Pinheiros, São Paulo - SP, 05410-000",
 		"name": "Restaurante Dom Curro",
 		"description": "Espaço amplo e banheiro adaptado.",
-		"img": "/imagens/domcurro.jpeg"
+		"img": "/imagens/domcurro.jpeg",
+		"link": "www.doncurro.com.br"
 	},
 	{
 		"location": "R. Avanhandava, 81 - Bela Vista, São Paulo - SP, 01306-000",
 		"name": "Restaurante Famiglia Mancini",
 		"description": "elevador de acesso ao salão principal, bom espaço para circulação entre as mesas. Em caso de necessidade, a casa dispõe de van adaptada para transporte dos clientes.",
-		"img": "/imagens/familiamancini.jpg"
+		"img": "/imagens/familiamancini.jpg",
+		"link": "www.famigliamancini.com.br"
 	},
 	{
 		"location": "Largo do Arouche, 346 -Centro, São Paulo - SP, 01219-010",
 		"name": "Restaurante La Casserole",
 		"description": "Salão amplo, e o piso facilita a circulação de cadeira de rodas. Banheiro adaptado.",
-		"img": "/imagens/lecassarole.jpg"
+		"img": "/imagens/lecassarole.jpg",
+		"link": "www.lacasserole.com.br"
 	},
 	{
 		"location": "R. Barão de Capanema, 348 - Cerqueira César, São Paulo - SP",
 		"name": "1900 Pizzaria",
 		"description": "A acessibilidade de todas as unidades oferece conforto às pessoas com deficiência exceto na unidade Chácara Flora, onde o acesso ao banheiro é inadequado.",
-		"img": "/imagens/restaurante1900.jpg"
+		"img": "/imagens/restaurante1900.jpg",
+		"link": "www.1900.com.br"
 	},
 	{
 		"location": "R. Gandavo, 447 - Vila Clementino, São Paulo - SP, 04023-001",
-		"name": "Pizzaria quintal do Braz",
+		"name": "Pizzaria Quintal do Braz",
 		"description": "Acesso confortável a cadeirante, espaço amplo e banheiro adaptado",
-		"img": "/imagens/brazpizzaria.jpg"
+		"img": "/imagens/brazpizzaria.jpg",
+		"link": "www.brazpizzaria.com.br"
 	},
 	{
 		"location": "R. Leopoldo Couto Magalhães Júnior, 831 - Itaim Bibi, São Paulo - SP, 04542-011",
 		"name": "Restaurante Ráscal Itaim",
 		"description": "Acesso confortável a cadeirante, espaço amplo e banheiro adaptado. Cardápio em Braille.",
-		"img": "/imagens/rascalitaim.jpg"
+		"img": "/imagens/rascalitaim.jpg",
+		"link": "www.rascal.com.br"
 	},
 	{
 		"location": "R. Avanhandava, 126 - Bela Vista, São Paulo - SP, 01306-000",
 		"name": "Walter Mancini Ristorante",
 		"description": "Rampas de acesso e banheiros adaptados. Possui van adaptada para transporte ao local.",
-		"img": "/imagens/restaurantemancini.jpg"
+		"img": "/imagens/restaurantemancini.jpg",
+		"link": "www.famigliamancini.com.br"
 	}
 
 ]
